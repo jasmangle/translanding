@@ -1,0 +1,44 @@
+---
+---
+@import "colors";
+
+#top-gradient {
+  background: #a5ebff;
+  left: 0; right: 0; top: 0; z-index: 99999;
+  position: absolute;
+  background: repeating-linear-gradient(90deg, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5);
+  background-size: 300% 100%;
+  width: 100%;
+  height: 5px;
+  animation: gradientHeader 25s linear infinite;
+}
+
+@keyframes gradientHeader {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.svg-name-logo {
+  stroke: var(--clr-h1-and-bold);
+  fill: var(--clr-h1-and-bold);
+}
+
+#svg-name-logo-det {
+  max-width: 250px;
+}
+
+.img-circle {
+  width: 100%;
+}
+
+.internal-link-wrapper {
+  margin-bottom: 2em;
+}
+
+.link li a {
+  margin-left: 0.25rem;
+}

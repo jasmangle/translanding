@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<h4><em>Posted on {{ page.date | date: "%B %-d, %Y" }}</em></h4>
+
+{{ content }}
+
+{% if page.tags %}
+<span style="font-size: smaller;">tags: <em>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></span>
+{% endif %}
