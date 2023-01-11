@@ -20,11 +20,11 @@
 
 title: Adam Angle
 title_suffix: Adam Angle's Personal Website
-email: your-email@example.com
+email: not-my-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   EECS sophomore at UC Berkeley.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://adamangle.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: o_O
 github_username:  AdamAngle
 
