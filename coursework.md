@@ -19,10 +19,10 @@ Here is a list of some classes I've taken (or plan to take) at UC Berkeley.
 
 ## Spring 2022
 - CS 61B: Data Structures
-- EECS 16B: Designing Information Devices and Systems I
-- EE 39: Hands-on-Ham Radio
+- EECS 16A: Designing Information Devices and Systems I
+- EE 39: Hands-on-Ham Radio Seminar
 
 ## Fall 2021
 - CS 61A: The Structure and Interpretation of Computer Programs
-- EE 24: Berkeley Low Cost Interplanetary Solar Sail (BLISS)
+- EE 24: Berkeley Low Cost Interplanetary Solar Sail (BLISS) Seminar
 - Decal: Linux System Administration - Beginner
