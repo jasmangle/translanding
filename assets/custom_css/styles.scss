@@ -35,6 +35,22 @@
   width: 100%;
 }
 
+#show-email {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  background: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--clr-a-text);
+  text-decoration: none;
+}
+
+#show-email:hover, #show-email:focus {
+  color: var(--clr-a-text-hvr);
+}
+
 .internal-link-wrapper {
   margin-bottom: 2em;
 }
