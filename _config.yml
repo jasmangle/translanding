@@ -33,6 +33,7 @@ remote_theme: BDHU/minimalist
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 logo: /assets/img/adam.jpg
 color-scheme: auto
