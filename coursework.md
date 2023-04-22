@@ -7,7 +7,7 @@ permalink: /coursework/
 
 Here is a list of some classes I've taken (or plan to take) at UC Berkeley.
 
-# Fall 2023 (Planned)
+## Fall 2023 (Planned)
 - CS 170: Efficient Algorithms and Intractable Problems
 - CS 161: Computer Security
 - EPS 109: Computer Simulations with Jupyter Notebooks
