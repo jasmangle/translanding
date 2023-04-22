@@ -7,24 +7,30 @@ permalink: /coursework/
 
 Here is a list of some classes I've taken (or plan to take) at UC Berkeley.
 
+# Fall 2023 (Planned)
+- CS 170: Efficient Algorithms and Intractable Problems
+- CS 161: Computer Security
+- EPS 109: Computer Simulations with Jupyter Notebooks
+- EE 194: Special Topics (Nanorobotics)
+
 ## Spring 2023
-- CS 70: Discrete Mathematics and Probability Theory
-- EECS 151: Introduction to Digital Design and Integrated Circuits (with FPGA lab)
+- [CS 70](https://www.eecs70.org/): Discrete Mathematics and Probability Theory
+- [EECS 151](https://inst.eecs.berkeley.edu/~eecs151/sp23/): Introduction to Digital Design and Integrated Circuits (with FPGA lab)
 - Physics 7B: Engineering Physics (Electricity and Magnetism)
-- Decal: Hands-On PCB Engineering
+- [Decal](https://ieee.berkeley.edu/hope/): Hands-On PCB Engineering
 
 ## Fall 2022
-- CS 61C: Machine Structures
-- EECS 16B: Designing Information Devices and Systems II<br>(Intro to LinAlg/ML/Circuits)
+- [CS 61C](https://inst.eecs.berkeley.edu/~cs61c/fa22/): Machine Structures
+- [EECS 16B](https://inst.eecs.berkeley.edu/~eecs16b/fa22/): Designing Information Devices and Systems II<br>(Intro to LinAlg/ML/Circuits)
 - Physics 7A: Engineering Physics (Kinematics)
-- CS 195: Social Implications of Computer Technology
+- [CS 195](https://inst.eecs.berkeley.edu/~cs195/fa22/): Social Implications of Computer Technology
 
 ## Spring 2022
-- CS 61B: Data Structures
-- EECS 16A: Designing Information Devices and Systems I
+- [CS 61B](https://inst.eecs.berkeley.edu/~cs61b/sp22/): Data Structures
+- [EECS 16A](https://inst.eecs.berkeley.edu/~ee16a/sp22/): Designing Information Devices and Systems I
 - EE 39: Hands-on-Ham Radio Seminar
 
 ## Fall 2021
-- CS 61A: The Structure and Interpretation of Computer Programs
+- [CS 61A](https://inst.eecs.berkeley.edu/~cs61a/fa21/): The Structure and Interpretation of Computer Programs
 - EE 24: Berkeley Low Cost Interplanetary Solar Sail (BLISS) Seminar
-- Decal: Linux System Administration - Beginner
+- [Decal](https://decal.ocf.berkeley.edu/archives/2021-fall/): Linux System Administration - Beginner
