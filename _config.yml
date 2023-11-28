@@ -35,7 +35,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
 
-logo: /assets/img/adam.jpg
+logo: /assets/img/adam_new.jpg
 color-scheme: auto
 
 sidebar_links:
