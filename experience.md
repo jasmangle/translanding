@@ -30,7 +30,7 @@ permalink: /experience/
   <i>
     Part-Time Software Engineer
     <span style="float:right;">
-      May 2020 &#8212; Jan. 2023
+      Jan. 2020 &#8212; Jan. 2023
     </span>
   </i>
   <ul>
