@@ -42,6 +42,9 @@ sidebar_links:
   - name: Home
     icon: <i class="fa-solid fa-fw fa-home"></i>
     link: /
+  - name: Experience
+    icon: <i class="fa-solid fa-fw fa-list"></i>
+    link: /experience/
   - name: Coursework
     icon: <i class="fa-solid fa-fw fa-graduation-cap"></i>
     link: /coursework/
