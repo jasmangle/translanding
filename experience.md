@@ -1,5 +1,5 @@
 ---
-title: Coursework
+title: Experience
 layout: default
 permalink: /experience/
 ---
