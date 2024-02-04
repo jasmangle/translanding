@@ -46,8 +46,11 @@ permalink: /experience/
   <br><i>
     Undergraduate Student Instructor
     <span style="float:right;">Jan. 2024 &#8212; Present</span>
-  </i><br>
-  <br><i>
+  </i>
+  <ul>
+    
+  </ul>
+  <i>
     Tutor
     <span style="float:right;">Aug. 2023 &#8212; Dec. 2023</span>
   </i>
