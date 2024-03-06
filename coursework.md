@@ -7,6 +7,11 @@ permalink: /coursework/
 
 Here is a list of some classes I've taken (or plan to take) at UC Berkeley.
 
+## Spring 2024
+- [EE 194](https://www2.eecs.berkeley.edu/Courses/EE194/): IC Design Project: 16nm SoC for IoT (Tapeout Course)
+- [CS 152](https://inst.eecs.berkeley.edu/~cs152/sp24/): Computer Architecture and Engineering
+- [CS 370](https://www2.eecs.berkeley.edu/Courses/CS370/): Adaptive Instruction Methods in Computer Science
+
 ## Fall 2023
 - [CS 170](https://cs170.org/): Efficient Algorithms and Intractable Problems
 - [CS 161](https://fa23.cs161.org/): Computer Security
