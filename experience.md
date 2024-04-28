@@ -7,6 +7,22 @@ permalink: /experience/
 ## Industry
 
 <p style="text-align:left;">
+  <strong><a href="https://www.nvidia.com/" target="_blank">NVIDIA</a></strong>
+  <span style="float:right;">
+    Santa Clara, CA
+  </span><br>
+  <i>
+    Software Engineering Intern (Hardware, DFX Engineering)
+    <span style="float:right;">
+      May 2024
+    </span>
+  </i>
+  <ul>
+    <li>Incoming!</li>
+  </ul>
+</p>
+
+<p style="text-align:left;">
   <strong><a href="https://www.paylocity.com/" target="_blank">Paylocity</a></strong>
   <span style="float:right;">
     Schaumburg, IL
