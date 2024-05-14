@@ -61,7 +61,7 @@ permalink: /experience/
   <span style="float:right;">Berkeley, CA</span>
   <br><i>
     Undergraduate Student Instructor
-    <span style="float:right;">Jan. 2024 &#8212; Present</span>
+    <span style="float:right;">Jan. 2024 &#8212; May 2024</span>
   </i>
   <ul>
     
