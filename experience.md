@@ -14,7 +14,7 @@ permalink: /experience/
   <i>
     Software Engineering Intern (Hardware, DFX Engineering)
     <span style="float:right;">
-      May 2024
+      May 2024 &#8212; Present 
     </span>
   </i>
   <ul>
