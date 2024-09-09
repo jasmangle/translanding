@@ -7,6 +7,11 @@ permalink: /coursework/
 
 Here is a list of some classes I've taken (or plan to take) at UC Berkeley.
 
+## Fall 2024
+- [EE 194](https://www2.eecs.berkeley.edu/Courses/EE194/): IC Design Project: 16nm SoC for IoT (Bringup Course)
+- [EE 194-2](https://www2.eecs.berkeley.edu/Courses/EE194/): Introduction to Nanorobotics
+- Linguis 100: Introduction to Linguistic Science
+
 ## Spring 2024
 - [EE 194](https://www2.eecs.berkeley.edu/Courses/EE194/): IC Design Project: 16nm SoC for IoT (Tapeout Course)
 - [CS 152](https://inst.eecs.berkeley.edu/~cs152/sp24/): Computer Architecture and Engineering
