@@ -57,9 +57,15 @@ sidebar:
   - name: GitHub
     icon: <i class="fa-brands fa-fw fa-github"></i>
     link: https://github.com/AdamAngle
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-fw fa-linkedin"></i>
-    link: https://linkedin.com/in/adamangle
+  # - name: LinkedIn
+  #   icon: <i class="fa-brands fa-fw fa-linkedin"></i>
+  #   link: https://linkedin.com/in/adamangle
+  - name: Twitter
+    icon: <i class="fa-brands fa-fw fa-x-twitter"></i>
+    link: https://x.com/jasmangle
+  - name: Instagram
+    icon: <i class="fa-brands fa-fw fa-instagram"></i>
+    link: https://instagram.com/jasmangle
 
 # Exclude from processing.
 # The following items will not be processed, by default.
