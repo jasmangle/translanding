@@ -54,9 +54,6 @@ sidebar_links:
     link: /blurbs/
   
 sidebar:
-  - name: GitHub
-    icon: <i class="fa-brands fa-fw fa-github"></i>
-    link: https://github.com/AdamAngle
   # - name: LinkedIn
   #   icon: <i class="fa-brands fa-fw fa-linkedin"></i>
   #   link: https://linkedin.com/in/adamangle
@@ -66,6 +63,9 @@ sidebar:
   - name: Instagram
     icon: <i class="fa-brands fa-fw fa-instagram"></i>
     link: https://instagram.com/jasmangle
+  - name: GitHub
+    icon: <i class="fa-brands fa-fw fa-github"></i>
+    link: https://github.com/AdamAngle
 
 # Exclude from processing.
 # The following items will not be processed, by default.
