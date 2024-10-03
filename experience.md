@@ -61,10 +61,10 @@ permalink: /experience/
   <span style="float:right;">Berkeley, CA</span>
   <br><i>
     Undergraduate Student Instructor
-    <span style="float:right;">Jan. 2024 &#8212; May 2024</span>
+    <span style="float:right;">Jan. 2024 &#8212; Present</span>
   </i>
   <ul>
-    
+    <li>Presented conceptual mini-lectures and supported students in laboratory sections, held office hours, developed homework assignments, and proctored exams for a class of 600+ students.</li>
   </ul>
   <i>
     Tutor
