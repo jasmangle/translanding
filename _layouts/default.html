@@ -19,7 +19,8 @@
     <meta name="twitter:image" content="{{ site.logo | absolute_url }}">
     <title>{{ page.title }} | {{ site.title_suffix }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/layout.css?v=" | append: site.github.build_revision | relative_url }}">
 
     <link rel="preload" href="{{site.logo | relative_url}}" as="image">
     <!--[if lt IE 9]>
@@ -29,12 +30,20 @@
   </head>
   <body>
     <div id="top-gradient" class="blue-g"></div>
-
-    <noscript>Please visit <a href="https://jasmangle.com/">jasmangle.com</a>, this website has been retired.</noscript>
     
-    <div id="trans-text">
+    <!-- <div id="trans-text">
       <div id="trans-name">adam</div>
       <span> angle</span>
+    </div> -->
+    <div class="anim-gradient-container top d-flex justify-content-center flex-column">
+      <div class="anim-gradient d-flex align-items-center justify-content-center flex-column">
+        <div class="container row w-100">
+          <div class="col-md-12 text-start">
+            <h1 class="fw-light">Hi, I'm <strong>Jasmine Angle</strong>!</h1>
+            <h3 class="fw-light">My updated website is at <a href="https://jasmangle.com">jasmangle.com</a>.</h3>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- <script>
       var TxtType = function(el, toRotate, period) {
