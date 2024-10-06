@@ -36,10 +36,22 @@
             <h1 class="fw-light">Hi, I'm <strong>Jasmine Angle</strong>!</h1>
             <h3 class="fw-light"><b>
               My updated website is at <a style="color:#000;" href="https://jasmangle.com">jasmangle.com</a>.
-              <div class="d-none"><br>You will be automatically redirected in <div id="ctd">5</div> seconds.</div></b></h3>
+              <div id="ctdw" class="d-none"><br>You will be automatically redirected in <div id="ctd">5</div> seconds.</div></b></h3>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("#ctdw").classList.remove('d-none');
+      setInterval(function() {
+          var div = document.querySelector("#ctd");
+          var count = div.textContent * 1 - 1;
+          div.textContent = count;
+          if (count <= 0) {
+              window.location.replace("https://jasmangle.com");
+          }
+        }, 1000);
+    </script>
   </body>
 </html>
