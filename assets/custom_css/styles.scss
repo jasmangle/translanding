@@ -13,7 +13,18 @@
   animation: gradientHeader 25s linear infinite;
 }
 
-@keyframes gradientHeader {
+#top-gradient .pink-g {
+  background: #a5ebff;
+  left: 0; right: 0; top: 0; z-index: 99999;
+  position: absolute;
+  background: repeating-linear-gradient(90deg, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5, #60ffa8, #21efff, #25ffe3, #23a6d5);
+  background-size: 300% 100%;
+  width: 100%;
+  height: 5px;
+  animation: gradientHdr 25s linear infinite;
+}
+
+@keyframes gradientHdr {
   0% {
     background-position: 0 0;
   }
@@ -33,22 +44,6 @@
 
 .img-circle {
   width: 100%;
-}
-
-#show-email {
-  margin: 0;
-  padding: 0;
-  border: 0;
-
-  background: transparent;
-  font-size: inherit;
-  font-family: inherit;
-  color: var(--clr-a-text);
-  text-decoration: none;
-}
-
-#show-email:hover, #show-email:focus {
-  color: var(--clr-a-text-hvr);
 }
 
 .internal-link-wrapper {

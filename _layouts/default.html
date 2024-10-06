@@ -28,104 +28,72 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div id="top-gradient"></div>
-    <div class="wrapper">
-      <div class="sidebar">
-        <header>
-          {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
+    <div id="top-gradient" class="blue-g"></div>
 
-          <!-- {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% endif %} -->
-          <a class="svg-name-logo" href="{{ "/" | absolute_url }}" aria-label="Navigate to home page" style=" color:white;">
-            <svg id="svg-name-logo-det" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 873.5 281.54">
-              <desc>
-                Jasmine Angle
-              </desc>
-              <defs>
-                <style>
-                  .cls-1 {
-                    font-size: 8em;
-                  }
-            
-                  .full-name-logo {
-                    font-weight:600;
-                    fill: var(--clr-a-text);
-                    stroke: none
-                  }
-
-                  .full-name-logo:hover {
-                    fill: var(--clr-a-text-hvr);
-                  }
-                  
-                  .cls-3 {
-                    font-size: 8em;
-                  }
-            
-                  .cls-7 {
-                    fill: none;
-                  }
-            
-                  .cls-6,
-                  .cls-7 {
-                    stroke-miterlimit: 20;
-                  }
-                </style>
-              </defs>
-
-              <line class="cls-6" y1="249.15" x2="873.5" y2="249.15" stroke-width="3" />
-              <line class="cls-6" x1="465.16" y1="249.15" x2="873.5" y2="141.65" stroke-width="3" />
-              <path class="cls-7" d="M558.5,194.5c7.3,0,13,9.64,13,22" transform="translate(-8 32.15)" stroke-width="3" />
-              <g class="full-name-logo">
-                <text class="cls-1" transform="translate(0.24 239.95)">
-                  Jasmine
-                </text>
-                <text class="cls-3" transform="matrix(1, -0.26, 0.26, 1, 510.13, 226.39)">
-                  Angle
-                </text>
-              </g>
-            </svg>
-          </a>
-          <!-- <h1>
-            <a href="{{ "/" | absolute_url }}">
-              Jasmine <div style="display: inline-block; transform-origin: left; transform: rotate(-10deg);">Angle</div>
-            </a>
-          </h1> -->
-
-          {% if site.email %}
-            <p class="addr">
-              <i class="fa-regular fa-envelope"></i>&nbsp;
-              <span id="email-contents"><button type="button" id="show-email">Show email</button></span>
-              <noscript><br>(enable javascript)</noscript>
-            </p>
-          {% endif %}
-
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-          {% include sidebar.html %}
-
-        </header>
-
-        {% include links-mobile.html %}
-
-        <div class="sidebar-footer">
-          {%- include footer.html -%}
-        </div>
-      </div>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {%- include footer.html -%}
-      </footer>
+    <noscript>Please visit <a href="https://jasmangle.com/">jasmangle.com</a>, this website has been retired.</noscript>
+    
+    <div id="trans-text">
+      <div id="trans-name">adam</div>
+      <span> angle</span>
     </div>
+    <!-- <script>
+      var TxtType = function(el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+      };
+
+      TxtType.prototype.tick = function() {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
+
+          if (this.isDeleting) {
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+          var that = this;
+          var delta = 200 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+          delta = this.period;
+          this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          this.loopNum++;
+          delta = 500;
+          }
+
+          setTimeout(function() {
+          that.tick();
+          }, delta);
+      };
+
+      window.onload = function() {
+          var elements = document.getElementsByClassName('typewrite');
+          for (var i=0; i<elements.length; i++) {
+              var toRotate = elements[i].getAttribute('data-type');
+              var period = elements[i].getAttribute('data-period');
+              if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+              }
+          }
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+          document.body.appendChild(css);
+      };
+    </script> -->
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/common.js" | relative_url }}"></script>
   </body>
 </html>
