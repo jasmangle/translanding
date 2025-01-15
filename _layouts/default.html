@@ -52,7 +52,7 @@
       lnk.href = target;
       setInterval(function() {
         var count = div.textContent * 1 - 1;
-        div.textContent = max(0, count);
+        div.textContent = Math.max(0, count);
         txt.textContent = count == 1 ? "second" : "seconds";
         if (count <= 0) {
           window.location.replace(target);
