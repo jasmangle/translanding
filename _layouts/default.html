@@ -36,7 +36,7 @@
             <h1 class="fw-light">Hi, I'm <strong>Jasmine Angle</strong>!</h1>
             <h3 class="fw-light"><b>
               My updated website is at <a style="color:#000;" href="https://jasmangle.com">jasmangle.com</a>.
-              <span id="ctdw" class="d-none"><br>You will be automatically redirected in <span id="ctd">5</span> <span id="ctdt">seconds</span>.</span>
+              <span id="ctdw" class="d-none"><br>You will be automatically redirected in <span id="ctd">5</span> <span id="ctt">seconds</span>.</span>
             </b></h3>
           </div>
         </div>
@@ -45,16 +45,16 @@
 
     <script>
       document.getElementById("ctdw").classList.remove('d-none');
-      var txt = document.getElementById("ctdt");
+      var txt = document.getElementById("ctt");
       var div = document.getElementById("ctd");
       setInterval(function() {
-          var count = div.textContent * 1 - 1;
-          div.textContent = count;
-          txt.textContent = count == 1 ? "second" : "seconds";
-          if (count <= 0) {
-              window.location.replace("https://jasmangle.com");
-          }
-        }, 1000);
+        var count = div.textContent * 1 - 1;
+        div.textContent = max(0, count);
+        txt.textContent = count == 1 ? "second" : "seconds";
+        if (count <= 0) {
+          window.location.replace("https://jasmangle.com" + window.location.pathname + window.location.search);
+        }
+      }, 1000);
     </script>
   </body>
 </html>
