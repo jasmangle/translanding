@@ -47,7 +47,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 code {
@@ -159,7 +159,7 @@ img.img-nostretch {
 
 /* Gradient Header Animation */
 .anim-gradient-container {
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   text-align: center;
 }
