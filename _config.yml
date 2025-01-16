@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 logo: /assets/img/jasmine.jpg
 color-scheme: auto
