@@ -208,7 +208,7 @@ img.img-nostretch {
     #2df0e7);
   background-size: 300% 300%; /* 207 for vert. linear */
   width: 100%;
-  height: 100%;
+  height: 100dvh;
   animation: gradientHeader 15s linear infinite;
 }
 
