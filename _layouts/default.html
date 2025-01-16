@@ -18,14 +18,8 @@
     <meta property="twitter:domain" content="{{ site.url_domain_only }}">
     <meta name="twitter:image" content="{{ site.logo | absolute_url }}">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/layout.css?v=" | append: site.github.build_revision | relative_url }}">
-
-    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
     {% include head-custom.html %}
   </head>
   <body>
@@ -51,8 +45,8 @@
       const target = "https://jasmangle.com" + window.location.pathname + window.location.search;
       lnk.href = target;
       setInterval(function() {
-        var count = div.textContent * 1 - 1;
-        div.textContent = Math.max(0, count);
+        var count = Math.max(0, div.textContent * 1 - 1);
+        div.textContent = count;
         txt.textContent = count == 1 ? "second" : "seconds";
         if (count <= 0) {
           window.location.replace(target);
